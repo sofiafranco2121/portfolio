@@ -1196,11 +1196,11 @@ section,
 }
 
 .portfolio .portfolio-item .portfolio-info {
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   left: 12px;
   right: 12px;
-  bottom: -100%;
+  bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.5s;
   background: color-mix(in srgb, var(--surface-color), transparent 10%);
@@ -1241,10 +1241,7 @@ section,
   font-size: 28px;
 }
 
-.portfolio .portfolio-item:hover .portfolio-info {
-  opacity: 1;
-  bottom: 0;
-}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details Section
